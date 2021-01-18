@@ -1,35 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Created to test the debugger's work xdebug</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Alexander Panov"/>
-    <meta name="copyright" content="www.lpdis.ru"/>
-    <link rel="stylesheet" href="css/index.css"/>
-</head>
-<body>
+<?php
+
+/*
+    $a = 5;
+    $b = '05';
+    var_dump($a == $b);         // Почему true?                 Потому что сравнение без приведения типов данных
+
+    var_dump((int)'012345');     // Почему 12345?               Потому что при преобразовании string в int
+                                                                первый ноль будет отбрасываться,т.к. он не имеет значения
+
+    var_dump((float)123.0 === (int)123.0); // Почему false?     Потому что разные типы данных
+
+    var_dump((int)0 === (int)'hello, world'); // Почему true?   Потому что типы данных совпадают, а преобразование данного
+                                                                текста в int дает 0
+ */
+
+$thisTitle = "~НАЗВАНИЕ~";
+$thisH1 = "~ЗАГОЛОВОК~";
+$thisYear = date( ' Y ');
 
 
-<div class="main">
-    <h1 class="main__header">PHP calculating:</h1>
-    <p class="main__text">We perform simple calculations on php</p>
-    <p class="main__text">you can set a breakpoint</p>
-    <p class="main__text">&#10004;</p>
-    <p class="main__text">&#10004;</p>
-    <p class="main__text">&#10004;</p>
-    <?php
-    $x = 2;
-    $y = 2;
-    $z = 2;
-    $allsum = $x + $y * 2 + $z;
-    ?>
-    <p class="main__result">Result: <?php echo $allsum; ?></p>
-</div>
+//Задание 5
 
+$a = $a_copy = 1;
+$b = $b_copy = 2;
 
-<footer class="footer">
-    <a class="footer__link" href="http://www.lpdis.ru">LPDIS.RU</a>
-</footer>
-</body>
-</html>
+$a = $a << $b = $a;
+
+include "template.html";
+
