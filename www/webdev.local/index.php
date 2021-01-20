@@ -22,9 +22,9 @@ $thisYear = date(' Y ');
 
 //Задание 5
 
-$a = $a_copy = 1;
+$a = $a_copy = 4;
 $b = $b_copy = 2;
 
-$a = $a << $b = $a;
+$a^= ($b ^= ($a ^= $b));
 
 include "template.html";
