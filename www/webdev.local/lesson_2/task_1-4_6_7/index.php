@@ -1,21 +1,18 @@
 <?php
 // Задание 1
 echo "Задание-1 <br>";
-$a = rand(-100,100);
-$b = rand(-100,100);
+$a = rand(-100, 100);
+$b = rand(-100, 100);
 
 echo "a = $a | b = $b <br>";
 
-if ( $a >= 0 && $b >= 0 ){
+if ($a >= 0 && $b >= 0) {
     echo "Разность.";
-}
-elseif ( $a < 0 && $b < 0 ){
+} elseif ($a < 0 && $b < 0) {
     echo "Произведение.";
-}
-elseif ( $a >= 0 && $b < 0 ){
+} elseif ($a >= 0 && $b < 0) {
     echo "Сумма.";
-}
-else {
+} else {
     echo "Сумма.";
 }
 
@@ -26,11 +23,11 @@ unset($b);
 
 echo "<br><br>Задание-2 (switch) <br>";
 
-$a = rand(0,15);
+$a = rand(0, 15);
 
 echo "a = $a <br>";
 
-switch($a){
+switch ($a) {
     case 0:
         echo "0 <br>";
     case 1:
@@ -68,12 +65,13 @@ unset($a);
 
 echo "<br>Задание-2 (функция+рекурсия) <br>";
 
-$a = rand(0,15);
+$a = rand(0, 15);
 
 echo "a = $a <br>";
 
-function task_2( $x ){
-    if ( $x <= 15){
+function task_2($x)
+{
+    if ($x <= 15) {
         echo $x . "<br>";
         $x++;
         task_2($x);
@@ -92,26 +90,30 @@ $b = 0;
 
 echo "a = $a | b = $b <br>";
 
-function sum( $x, $y ){
+function sum($x, $y)
+{
     return $x + $y;
 }
 
-function sub( $x, $y ){
+function sub($x, $y)
+{
     return $x - $y;
 }
 
-function multi( $x, $y ){
+function multi($x, $y)
+{
     return $x * $y;
 }
 
-function div( $x, $y ){
-    return $y == 0 ?  'Ошибка. На ноль делить нельзя' :  $x / $y;
+function div($x, $y)
+{
+    return $y == 0 ? 'Ошибка. На ноль делить нельзя' : $x / $y;
 }
 
-echo "\$a + \$b = " . sum( $a, $b) . "<br>";
-echo "\$a - \$b = " . sub( $a, $b) . "<br>";
-echo "\$a * \$b = " . multi( $a, $b) . "<br>";
-echo "\$a / \$b = " . div( $a, $b) . "<br>";
+echo "\$a + \$b = " . sum($a, $b) . "<br>";
+echo "\$a - \$b = " . sub($a, $b) . "<br>";
+echo "\$a * \$b = " . multi($a, $b) . "<br>";
+echo "\$a / \$b = " . div($a, $b) . "<br>";
 
 unset($a);
 unset($b);
@@ -120,29 +122,30 @@ unset($b);
 
 echo "<br><br>Задание-4 <br>";
 
-$a = rand(-10,10);
-$b = rand(-10,10);
-$signs = array('+' , '-', '*', '/', '=)');
-$operation = $signs[ rand(0 , 4) ];
+$a = rand(-10, 10);
+$b = rand(-10, 10);
+$signs = array('+', '-', '*', '/', '=)');
+$operation = $signs[rand(0, 4)];
 
 echo "a = $a | b = $b | знак - '$operation' <br>";
 
-function mathOperation( $a, $b, $operation ){
-    switch ($operation){
+function mathOperation($a, $b, $operation)
+{
+    switch ($operation) {
         case '+':
-            return sum( $a, $b);
+            return sum($a, $b);
         case '-':
-            return sub( $a, $b);
+            return sub($a, $b);
         case '*':
-            return multi( $a, $b);
+            return multi($a, $b);
         case '/':
-            return div( $a, $b);
+            return div($a, $b);
         default:
             return "Не не, норм знак давай!";
     }
 }
 
-echo "\$a $operation \$b = " . mathOperation( $a, $b, $operation ) . "<br>";
+echo "\$a $operation \$b = " . mathOperation($a, $b, $operation) . "<br>";
 
 unset ($a, $b, $operation, $signs);
 
@@ -151,57 +154,55 @@ unset ($a, $b, $operation, $signs);
 
 echo "<br><br>Задание-6 <br>";
 
-$val = rand(2,9);
-$pow = rand(1,10);
+$val = rand(2, 9);
+$pow = rand(1, 10);
 
 echo "Значение : $val <br>";
 echo "Степень : $pow <br>";
 
-function power($val, $pow){
+function power($val, $pow)
+{
 
-    return ($pow>0) ? $val * power($val,$pow-1) : 1;
+    return ($pow > 0) ? $val * power($val, $pow - 1) : 1;
 
 }
 
-echo "Ответ : " . power($val,$pow) . "<br>";
+echo "Ответ : " . power($val, $pow) . "<br>";
 
-unset($val,$pow);
+unset($val, $pow);
 
 //Задание 7
 
 echo "<br><br>Задание-7 <br>";
 
-$hour = rand(0,24);
-$minute = rand(0,59);
+$hour = rand(0, 24);
+$minute = rand(0, 59);
 
-function myTime($hour,$minute){
+function myTime($hour, $minute)
+{
 
     // 0, 5-20
-    if ($hour == 0 || ($hour >=5 && $hour <= 20) ){
-        $hour .= (string) ' часов ';
-    }
-    // 1, 21
-    elseif ($hour == 1 || $hour == 21){
-        $hour .= (string) ' час ';
-    }
-    // 2-4, 22-24
-    else{
-        $hour .= (string) ' часа ';
+    if ($hour == 0 || ($hour >= 5 && $hour <= 20)) {
+        $hour .= (string)' часов ';
+    } // 1, 21
+    elseif ($hour == 1 || $hour == 21) {
+        $hour .= (string)' час ';
+    } // 2-4, 22-24
+    else {
+        $hour .= (string)' часа ';
     }
     // 1, 21, 31, 41, 51
-    if (intval($minute/10) != 1 && $minute%10 == 1){
-        $minute .= (string) ' минута';
-    }
-    // 2-4, 22-24, 32-34, 42-44, 52-54,
-    elseif (intval($minute/10) != 1 && ($minute%10 == 2 || $minute%10 == 3 || $minute%10 == 4)){
-        $minute .= (string) ' минуты';
-    }
-    else{
-        $minute .= (string) ' минут';
+    if (intval($minute / 10) != 1 && $minute % 10 == 1) {
+        $minute .= (string)' минута';
+    } // 2-4, 22-24, 32-34, 42-44, 52-54,
+    elseif (intval($minute / 10) != 1 && ($minute % 10 == 2 || $minute % 10 == 3 || $minute % 10 == 4)) {
+        $minute .= (string)' минуты';
+    } else {
+        $minute .= (string)' минут';
     }
 
     return $hour . $minute;
 
 }
 
-echo myTime($hour,$minute);
+echo myTime($hour, $minute);
