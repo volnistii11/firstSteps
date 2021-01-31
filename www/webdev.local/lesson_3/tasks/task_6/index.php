@@ -65,6 +65,7 @@ $arrMenu = array(
     ),
 );
 
+var_dump($arrMenu);
 function genMenu($arrMenu, $menu ="")
 {
     $menu .= "<ul>";
