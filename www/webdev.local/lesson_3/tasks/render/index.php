@@ -12,6 +12,7 @@ $params = [
     'count' => 2
 ];
 
+
 switch ($page) {
     case 'index':
         $params['name'] = 'Alex';
@@ -19,6 +20,10 @@ switch ($page) {
 
     case 'catalog':
         $params['catalog'] = getCatalog();
+        break;
+
+    case 'list':
+        $params['list'] = getMenu();
         break;
 
     case 'apicatalog':
@@ -46,6 +51,75 @@ function getCatalog()
     ];
 }
 
+function getMenu()
+{
+    return [
+        [
+            'href' => '#',
+            'other' => 'style="color: red;"',
+            'name' => 'Меню_1',
+            'parent' => [
+                [
+                    'href' => '#',
+                    'other' => 'style="color: green;"',
+                    'name' => 'Меню_1.1'
+                ]
+            ]
+        ],
+        [
+            'href' => '#',
+            'other' => 'style="color: black;"',
+            'name' => 'Меню_2'
+        ],
+        [
+            'href' => '#',
+            'other' => 'style="color: orange;"',
+            'name' => 'Меню_3',
+            'parent' => [
+                [
+                    'href' => '#',
+                    'other' => 'style="color: green;"',
+                    'name' => 'Меню_3.1'
+                ],
+                [
+                    'href' => '#',
+                    'other' => 'style="color: green;"',
+                    'name' => 'Меню_3.2'
+                ]
+            ]
+        ],
+        [
+            'href' => '#',
+            'other' => 'style="color: green;"',
+            'name' => 'Меню_4',
+            'parent' => [
+                [
+                    'href' => '#',
+                    'other' => 'style="color: green;"',
+                    'name' => 'Меню_4.1',
+                    'parent' => [
+                        [
+                            'href' => '#',
+                            'other' => 'style="color: green;"',
+                            'name' => 'Меню_4.1.1'
+                        ],
+                        [
+                            'href' => '#',
+                            'other' => 'style="color: green;"',
+                            'name' => 'Меню_4.2.2'
+                        ]
+                    ]
+                ],
+                [
+                    'href' => '#',
+                    'other' => 'style="color: green;"',
+                    'name' => 'Меню_4.2'
+                ]
+            ]
+        ],
+    ];
+}
+
 function render($page, $params = [])
 {
     return renderTemplate(LAYOUTS_DIR . 'main', [
@@ -56,7 +130,6 @@ function render($page, $params = [])
 
 function renderTemplate($page, $params = [])
 {
-
     extract($params);
 //функция extract делает тоже самое
     /*    foreach ($params as $key =>$value) {
