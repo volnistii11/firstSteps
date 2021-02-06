@@ -1,0 +1,8 @@
+#Включаем редирект
+RewriteEngine on
+
+# Если файл(4) или папка(5) не найдны, то выполняется редирект на индекс(8)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
