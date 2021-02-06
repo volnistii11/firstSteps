@@ -12,38 +12,7 @@ if ($url_array[1] == "") {
     $page = $url_array[1];
 }
 
-
-//Для каждой страницы готовим массив со своим набором переменных
-//для подстановки их в соотвествующий шаблон
-$params = [
-    'count' => 2
-];
-
-switch ($page) {
-    case 'index':
-        $params['name'] = 'Alex';
-        break;
-
-    case 'catalog':
-        $params['catalog'] = getCatalog();
-        break;
-
-    case 'gallery':
-        if (!empty($_FILES)) {
-            upload();
-        }
-        $params['gallery'] = getGallery();
-        $messages = getStatus();
-        $params['message'] = $messages[$_GET['message']];
-        break;
-    case 'galleryOne':
-        $id = (int)$_GET['id'];
-        $params['galleryOne'] = getOneGallery($id);
-        break;
-    case 'apicatalog':
-        echo json_encode(getCatalog(), JSON_UNESCAPED_UNICODE);
-        die();
-}
+$params = prepareVariables($page);
 
 _log($params, "render");
 echo render($page, $params);
