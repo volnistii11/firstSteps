@@ -1,0 +1,34 @@
+<?php
+
+include "Goods.class.php";
+
+class PieceGoods extends Goods
+{
+    private $price;
+    private $quantitySold;
+
+    function __construct($type, $name, $price, $quantitySold)
+    {
+        parent::__construct($type, $name);
+        $this->price = $price;
+        $this->quantitySold = $quantitySold;
+    }
+
+    function getPrice()
+    {
+        return $this->price;
+    }
+
+    function getIncome()
+    {
+        return $this->quantitySold * $this->getPrice();
+    }
+
+    function show()
+    {
+        return Goods::show() . " цена штучного товара: " . $this->getPrice() . " общая прибыль: " . $this->getIncome() . ".<hr>";
+    }
+}
+
+$msi = new PieceGoods("Ноутбук", "MSI", 60000, 5);
+echo $msi->show();
