@@ -1,13 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e97a6260-fa5c-4661-835f-4ceea2e99916" name="Default Changelist" comment="" />
+    <list default="true" id="e97a6260-fa5c-4661-835f-4ceea2e99916" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/data/catalog.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/engine/catalog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/engine/controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/engine/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/engine/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/body.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/111.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/big/abstract-colors-unreal-clouds-1927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/111.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/gallery_img/small/abstract-colors-unreal-clouds-1927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webdev.local/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_nav_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_nav_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_shadow_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_title_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_title_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_title_over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancy_title_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancybox-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancybox-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/fancybox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/jquery.easing-1.3.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/jquery.fancybox-1.3.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/jquery.fancybox-1.3.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/scripts/jquery-1.4.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/templates/catalog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/templates/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/templates/layouts/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webdev.local/templates/menu.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -19,7 +97,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="1pHzSjXuYKaHAOjIMabgJzXYAA2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +109,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,7 +120,19 @@
       <option name="presentableId" value="Default" />
       <updated>1614854808023</updated>
       <workItem from="1614854810418" duration="5642000" />
+      <workItem from="1615115460281" duration="2357000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
