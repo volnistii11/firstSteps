@@ -1,0 +1,1 @@
+<?phpfunction text_get(){	return file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/../data/text.txt");}function text_set($text){	file_put_contents($_SERVER['DOCUMENT_ROOT'] . "/../data/text.txt", $text);}
