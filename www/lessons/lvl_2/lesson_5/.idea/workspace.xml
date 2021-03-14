@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e97a6260-fa5c-4661-835f-4ceea2e99916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/c/C_Basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/c/C_Catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/m/M_Basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/m/M_Catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/public/add_toBasket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/public/delete_fromBasket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/public/show_more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/v/v_basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/v/v_catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webdev.local/v/v_catalogOne.php" afterDir="false" />
+    <list default="true" id="6bd16b53-0240-4173-8af2-2ca6548f85de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lesson_3_twig" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_3_twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/.idea/06_final_system.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -25,28 +16,19 @@
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/m/M_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webdev.local/m/M_User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/m/M_database.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../webdev.local/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webdev.local/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../webdev.local/v/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webdev.local/v/v_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="composer.json" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1pHzSjXuYKaHAOjIMabgJzXYAA2" />
+  <component name="ProjectId" id="1pemynHk1GdQsKXZHZaaH0AhAGv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,24 +38,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson_4_pdo" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e97a6260-fa5c-4661-835f-4ceea2e99916" name="Default Changelist" comment="" />
-      <created>1614854808023</created>
+      <changelist id="6bd16b53-0240-4173-8af2-2ca6548f85de" name="Default Changelist" comment="" />
+      <created>1615552186894</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1614854808023</updated>
-      <workItem from="1614854810418" duration="5642000" />
-      <workItem from="1615115460281" duration="2357000" />
-      <workItem from="1615552222806" duration="7251000" />
+      <updated>1615552186894</updated>
+      <workItem from="1615552188046" duration="37000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -85,6 +62,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
