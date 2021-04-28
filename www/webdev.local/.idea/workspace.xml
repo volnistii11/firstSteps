@@ -1,53 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f52bfacb-7e45-47ad-910e-e1e861c25dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c/C_Basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c/C_Catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m/M_Basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m/M_Catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/add_toBasket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/delete_fromBasket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/show_more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v/v_basket.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v/v_catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v/v_catalogOne.php" afterDir="false" />
+    <list default="true" id="17503deb-c33c-49f1-8cc9-8053d643303e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/c/C_Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/path_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m/M_Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lessons/lvl_2/lesson_3_twig" beforeDir="false" afterPath="$PROJECT_DIR$/../lessons/lvl_2/lesson_3_twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lessons/lvl_2/lesson_4_pdo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lessons/lvl_2/lesson_4_pdo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/06_final_system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/c/C_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m/M_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/M_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m/M_database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/v_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>G:\webdev_vagrant\webdev\www\webdev.local\composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="G:\webdev_vagrant\webdev\www\webdev.local\lib\composer.phar" interpreterId="74071688-82e9-40e6-84a1-4e8d891e4f1a" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1peiwMq37W9bXL8udwLwt0tU89q" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="webdev.local" id="d51bc1fa-618f-4a2b-9863-01f1423a7f6c" name="webdev.local" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/webdev.local" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 7.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1qcae2oWrxXDpa7EedQKwQWABj6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,17 +87,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lessons/lvl_2/lesson_5" />
+    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="Vagrant" />
+    <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="Vagrant" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo4" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webdev_vagrant\webdev\www\webdev.local\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\webdev_vagrant\webdev\www\webdev.local\lib" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="windows-1251" />
+    <option name="myConnectionType" value="CURRENT_VAGRANT" />
+    <option name="myConnectionId" value="" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f52bfacb-7e45-47ad-910e-e1e861c25dd4" name="Default Changelist" comment="" />
-      <created>1615550196149</created>
+      <changelist id="17503deb-c33c-49f1-8cc9-8053d643303e" name="Default Changelist" comment="" />
+      <created>1617381423983</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615550196149</updated>
-      <workItem from="1615550198606" duration="20000000" />
+      <updated>1617381423983</updated>
+      <workItem from="1617381425112" duration="31322000" />
     </task>
     <servers />
   </component>
@@ -84,5 +132,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
